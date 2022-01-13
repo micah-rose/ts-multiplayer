@@ -1,3 +1,15 @@
+class Grault {
+    private garply: string;
+
+    constructor(quux: Quux, waldo: number[]) {
+        this.garply = quux.quuz + " " + quux.corge + " " + waldo;
+    }
+
+    public getGarply() {
+        return this.garply;
+    }
+}
+
 //use interfaces to define your own types
 //the use of interfaces is when you are doing a merge
 //a merge is when the same interface is defined twice with a different parameter
@@ -11,6 +23,10 @@ function foo(bar: Quux) {
     return "Hello, " + bar.quuz + " " + bar.corge;
 }
 
-let baz = {quuz: 'ABC', corge: 123}
+let baz = {quuz: 'ABC', corge: 123};
 
-console.log(foo(baz));
+let fred: Grault = new Grault(baz, [1,2,3]);
+
+console.log(fred.getGarply());
+
+document.body.innerHTML = fred.getGarply();
