@@ -13,4 +13,6 @@ function foo(bar) {
 var baz = { quuz: 'ABC', corge: 123 };
 var fred = new Grault(baz, [1, 2, 3]);
 console.log(fred.getGarply());
-document.body.innerHTML = fred.getGarply();
+// try {
+//     document.body.innerHTML = fred.getGarply();
+// } catch (e) { }

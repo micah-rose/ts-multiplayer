@@ -1,0 +1,23 @@
+{
+  "name": "ts-multiplayer",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micah-rose/ts-multiplayer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micah-rose/ts-multiplayer/issues"
+  },
+  "homepage": "https://github.com/micah-rose/ts-multiplayer#readme",
+  "dependencies": {
+    "@types/node": "^17.0.8",
+    "@types/socket.io": "^3.0.2",
+    "socket.io": "^4.4.1"
+  }
+}

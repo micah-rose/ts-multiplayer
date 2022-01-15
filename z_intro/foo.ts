@@ -29,4 +29,7 @@ let fred: Grault = new Grault(baz, [1,2,3]);
 
 console.log(fred.getGarply());
 
-document.body.innerHTML = fred.getGarply();
+//the below won't work with running in node, had to comment out in order to run
+// try {
+//     document.body.innerHTML = fred.getGarply();
+// } catch (e) { }
